@@ -1,0 +1,12 @@
+- Storybook
+
+- CI/CI GH actions?
+
+- Figure testing
+
+- Linting
+
+- Context / Redux
+
+- Firebase (maybe oauth)
+

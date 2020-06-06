@@ -10,3 +10,4 @@
 
 - Firebase (maybe oauth)
 
+- Sockets - Chat about movies.

@@ -1,0 +1,6 @@
+const moviesTypes = {
+  FETCH_MOVIES: 'FETCH_MOVIES',
+  FETCH_MOVIES_SUCCESS: 'FETCH_MOVIES_SUCCESS',
+  FETCH_MOVIES_FAIL: 'FETCH_TOP_NEWS_FAIL',
+};
+export default moviesTypes;

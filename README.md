@@ -46,7 +46,7 @@ yarn test
 
 ### src/
 
-#### apis ---> APIs & data fethcing related stuff.
+#### apis ---> APIs & data fetching related stuff.
 
 #### components ---> Components.
 

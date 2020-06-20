@@ -1,12 +1,14 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 
-import instance from './apis/tmdb.instance';
-import useAxios from './hooks/useTmdb';
+import { fetchPopularMovies } from './store/movies/moviesActions';
 
 const App: React.FC = () => {
-  const [data] = useAxios(instance, '/movie/33');
+  const dispatch = useDispatch();
 
-  console.log(data, 12);
+  React.useEffect(() => {
+    dispatch(fetchPopularMovies('popular'));
+  }, [dispatch]);
 
   return (
     <div className='App'>Yo there, check ma cricleCI + netlify. For real.</div>

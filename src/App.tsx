@@ -1,7 +1,7 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 
-import { fetchPopularMovies } from './store/movies/moviesActions';
+// import { fetchPopularMovies } from './store/movies/moviesActions';
 
 const App: React.FC = () => {
   // const dispatch = useDispatch();

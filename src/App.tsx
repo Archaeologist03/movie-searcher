@@ -1,7 +1,11 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 // import { useDispatch } from 'react-redux';
 
 // import { fetchPopularMovies } from './store/movies/moviesActions';
+
+import Header from './components/Header/Header';
 
 const App: React.FC = () => {
   // const dispatch = useDispatch();
@@ -11,7 +15,11 @@ const App: React.FC = () => {
   // }, [dispatch]);
 
   return (
-    <div className='App'>Yo there, check ma cricleCI + netlify. For real.</div>
+    <Router>
+      <div className='App'>
+        <Header />
+      </div>
+    </Router>
   );
 };
 
